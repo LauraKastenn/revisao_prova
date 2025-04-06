@@ -1,0 +1,46 @@
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 127, 108);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(251, 250, 255);
+    text-decoration: none;
+}
+.simbolos{
+    width: 500px;
+    padding-left: 360px;
+}
+
+.introducao{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(1, 127, 108);
+    padding: 50px;
+    border-style: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: rgb(255, 254, 254);
+    align-items: center;
+    font-size: 80%;
+}
+h1 {
+    font-size: 150%;
+}
+
+.flex{
+    display: flex;
+}
+
+
