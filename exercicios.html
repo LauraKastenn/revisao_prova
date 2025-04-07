@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão para a prova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="inicio.html">INÍCIO</a>
+            </li>
+            <li>
+                <a href="html.html">HTML</a>
+            </li>
+            <li>
+                <a href="css.html">CSS</a>
+            </li>
+            <li>
+                <a href="javascritt.html">JAVASCRIPT</a>
+            </li>
+            <li>
+                <a href="gitgithub.html">GIT/GITHUB</a>
+            </li>
+            <li>
+                <a href="exercicios.html">EXERCÍCIOS</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="perguntas">
+
+    <p id="enunciado"> EXERCÍCIO 1: Qual é a função da tag <head> em um documento HTML?</p>
+    
+    <p id="resposta"><b>R:</b> A tag head contém metadados, links para estilos e scripts, e o título da página, que aparece na aba do navegador.</p>
+    
+    <button onclick="mostrarResposta()">Revelar resposta</button>
+    </div>
+    <div id="perguntas">
+    <p id="enunciado"> EXERCÍCIO 2: Como aplicar um estilo CSS a um elemento HTML?</p>
+    R:</b> Você pode aplicar estilos CSS usando seletores em um arquivo CSS externo, em uma tag style dentro <br>
+         do head, ou diretamente no elemento usando o atributo style. </p>
+        
+        <button onclick="mostrarResposta()">Revelar resposta</button>
+    
+    </div>
+
+
+<script>
+//JAVASCRIPT 
+
+function mostrarResposta() {
+
+document.getElementById("resposta").style.display = "block";
+
+}
+    </script>
