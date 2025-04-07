@@ -42,5 +42,9 @@ h1 {
 .flex{
     display: flex;
 }
-
-
+.img{
+    width: 300px;
+}
+.espaco{
+    
+}
