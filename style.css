@@ -1,7 +1,7 @@
 body {
     color: rgb(255, 255, 255);
-    background-color:  rgb(53, 0, 71);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  rgb(22, 0, 33);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 120%;
     align-items: center;
 }
@@ -27,7 +27,7 @@ a {
 
 .introducao{
     color: rgb(255, 255, 255);
-    background-color:   rgb(53, 0, 71);
+    background-color:   rgb(28, 0, 40);
     padding: 50px;
     border-style: solid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
