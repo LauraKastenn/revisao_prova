@@ -1,6 +1,6 @@
 body {
     color: rgb(255, 255, 255);
-    background-color: rgb(1, 127, 108);
+    background-color:  rgb(53, 0, 71);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 120%;
     align-items: center;
@@ -8,7 +8,7 @@ body {
 
 ul {
     display: flex;
-    color: aliceblue;
+    color:rgb(255, 255, 255);
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
@@ -17,7 +17,7 @@ ul {
 }
 
 a {
-    color: rgb(251, 250, 255);
+    color:rgb(255, 255, 255);
     text-decoration: none;
 }
 .simbolos{
@@ -27,11 +27,11 @@ a {
 
 .introducao{
     color: rgb(255, 255, 255);
-    background-color:  rgb(1, 127, 108);
+    background-color:   rgb(53, 0, 71);
     padding: 50px;
     border-style: solid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-color: rgb(255, 254, 254);
+    border-color:rgb(255, 255, 255);
     align-items: center;
     font-size: 80%;
 }
@@ -45,6 +45,6 @@ h1 {
 .img{
     width: 300px;
 }
-.espaco{
-    
+.atributos{
+    line-height: 50px;
 }
