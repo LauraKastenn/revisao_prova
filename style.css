@@ -1,6 +1,6 @@
 body {
     color: rgb(255, 255, 255);
-    background-color:  rgb(22, 0, 33);
+    background-color:  rgb(2, 78, 108);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 120%;
     align-items: center;
@@ -27,7 +27,7 @@ a {
 
 .introducao{
     color: rgb(255, 255, 255);
-    background-color:   rgb(28, 0, 40);
+    background-color:   rgb(2, 78, 108);
     padding: 50px;
     border-style: solid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -35,8 +35,13 @@ a {
     align-items: center;
     font-size: 80%;
 }
+
 h1 {
-    font-size: 150%;
+    font-size: 300%;
+    text-align: center;
+    color:   rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .flex{
@@ -49,7 +54,9 @@ h1 {
     line-height: 50px;
 }
 #resposta {
-
     display: none;
-    
-    }
+ }
+.navv{
+    background-color: rgb(1, 51, 70);
+    margin-bottom:0% ;
+}
