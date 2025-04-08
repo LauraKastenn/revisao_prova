@@ -9,7 +9,7 @@
 
 
 <body>
-    <nav class="navv">
+    <nav >
         <ul>
             <li>
                 <a href="inicio.html">INÍCIO</a>
@@ -31,30 +31,43 @@
             </li>
         </ul>
     </nav>
-    <div id="perguntas">
-
-    <p id="enunciado"> EXERCÍCIO 1: Qual é a função da tag <head> em um documento HTML?</p>
-    
-    <p id="resposta"><b>R:</b> A tag head contém metadados, links para estilos e scripts, e o título da página, que aparece na aba do navegador.</p>
-    
-    <button onclick="mostrarResposta()">Revelar resposta</button>
-    </div>
-    <div id="perguntas">
-    <p id="enunciado"> EXERCÍCIO 2: Como aplicar um estilo CSS a um elemento HTML?</p>
-    R:</b> Você pode aplicar estilos CSS usando seletores em um arquivo CSS externo, em uma tag style dentro <br>
-         do head, ou diretamente no elemento usando o atributo style. </p>
-        
-        <button onclick="mostrarResposta()">Revelar resposta</button>
-    
+    <div class="alinhado">
+    <h1>Perguntas e Respostas</h1>
+    <div>
+        <p>Qual é a função do comando git clone?</p>
+        <button onclick="exibirResposta('resposta1')">Mostrar Resposta</button>
+        <p id="resposta1" class="resposta">É usado para criar uma cópia local de um repositório remoto. <br>Isso permite que você trabalhe em uma versão do projeto em seu próprio ambiente.</p>
     </div>
 
+    <div>
+        <p>O que faz o document.getElementById() em JavaScript?</p>
+        <button onclick="exibirResposta('resposta2')">Mostrar Resposta</button>
+        <p id="resposta2" class="resposta">Retorna um elemento HTML com o ID especificado, <br>permitindo que você interaja e manipule esse elemento no DOM (Document Object Model).</p>
+    </div>
 
-<script>
-//JAVASCRIPT 
+    <div>
+        <p>Qual é a função do display: flex; em CSS?</p>
+        <button onclick="exibirResposta('resposta3')">Mostrar Resposta</button>
+        <p id="resposta3" class="resposta">Ativa o modelo de layout flexível, permitindo <br>que os elementos filhos de um contêiner se ajustem em uma única linha ou coluna,</p>
+    </div>
 
-function mostrarResposta() {
+    <div>
+        <p>O que é um pull request no GitHub?</p>
+        <button onclick="exibirResposta('resposta4')">Mostrar Resposta</button>
+        <p id="resposta4" class="resposta">É uma solicitação para mesclar alterações feitas em um branch de um repositório em outro branch. </p>
+    </div>
 
-document.getElementById("resposta").style.display = "block";
 
-}
-    </script>
+    <div>
+        <p>Como você inicia um repositório Git?</p>
+        <button onclick="exibirResposta('resposta6')">Mostrar Resposta</button>
+        <p id="resposta6" class="resposta">Você pode iniciar um repositório Git usando o comando 'git init' no terminal.</p>
+    </div>
+
+    <div>
+        <p>O que é um commit no Git?</p>
+        <button onclick="exibirResposta('resposta7')">Mostrar Resposta</button>
+        <p id="resposta7" class="resposta">Um commit é uma captura do estado atual do seu repositório, incluindo as alterações feitas.</p>
+    </div>
+</div>
+    <script src="script.js"></script>

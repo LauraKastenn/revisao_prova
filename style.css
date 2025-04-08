@@ -1,6 +1,6 @@
 body {
     color: rgb(255, 255, 255);
-    background-color:  rgb(2, 78, 108);
+    background-color: rgb(2, 78, 108);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 120%;
     align-items: center;
@@ -8,7 +8,7 @@ body {
 
 ul {
     display: flex;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
@@ -17,21 +17,22 @@ ul {
 }
 
 a {
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
-.simbolos{
+
+.simbolos {
     width: 500px;
     padding-left: 360px;
 }
 
-.introducao{
+.introducao {
     color: rgb(255, 255, 255);
-    background-color:   rgb(2, 78, 108);
+    background-color: rgb(2, 78, 108);
     padding: 50px;
     border-style: solid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-color:rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
     align-items: center;
     font-size: 80%;
 }
@@ -39,65 +40,82 @@ a {
 h1 {
     font-size: 300%;
     text-align: center;
-    color:   rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.flex{
+.flex {
     display: flex;
 }
-.img{
+
+.img {
     width: 250px;
     padding-top: 55px;
 }
-.atributos{
+
+.atributos {
     line-height: 50px;
 }
+
 #resposta {
     display: none;
- }
-.navv{
+}
+
+.navv {
     background-color: rgb(1, 51, 70);
     margin: 0%;
 }
-h2{
+
+h2 {
     font-size: 200%;
     text-align: center;
-    color:   rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding-top: 10px;
     padding-bottom: 10px;
     border-color: aliceblue;
 }
-.texto{
+
+.texto {
     text-align: center;
 }
 
-.textoo{
+.textoo {
     padding-left: 90px;
     text-align: center;
 }
-.correto{
+
+.correto {
     text-align: center;
 }
-.imgmeio{
+
+.imgmeio {
     text-align: center;
     width: 200px;
 }
-.titulos{
+
+.titulos {
     font-size: 300%;
     text-align: center;
-    color:   rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.comandos{
+
+.comandos {
     text-align: left;
     padding-left: 100px;
     padding-right: 100px;
 }
-.alinhado{
+
+.alinhado {
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.resposta {
+    display: none;
+    margin-top: 5px;
+    font-weight: bold;
 }
