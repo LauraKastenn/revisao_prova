@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
     <nav class="navv">
         <ul>
@@ -31,80 +30,96 @@
             </li>
         </ul>
     </nav>
-    <div>
-        <div>
+    <div class="titulos">
+        <p>JAVASCRIPT</p>
+        <img class="imgmeio" src="js.png" alt="">
+    </div>
+    <div class="correto">
             <h2>DEFINIÇÃO:</h2>
-            <p> JavaScript é uma linguagem de programação que permite criar páginas web interativas, tornando aplicações
-                Web mais dinâmicas <br> FRONT-END: Interatividade com o cliente, uso do DOM (Document Object Model) e o AJAX, que carrega dados dinamicamente; <br>
-            BACK-END: uso do NODE.JS  </p>
+            <p> JavaScript é uma linguagem de programação que permite <br> criar páginas web interativas,
+                tornando aplicações Web <br> mais dinâmicas <br>
+                FRONT-END: Interatividade com o cliente, uso <br>
+                do DOM (Document Object Model)
+                e o AJAX, <br> que carrega dados dinamicamente; <br>
+                BACK-END: uso do NODE.JS</p>
+            </p>
+        </div>
+        <div class="correto">
+            <h2>CRIAÇÃO:</h2>
+            <p> O JavaScript foi criado em 1995 por Brendan <br>Eich, um engenheiro da Netscape. A
+                linguagem foi<br> inicialmente chamada de Mocha,<br>depois LiveScript, e finalmente JavaScript. </p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="comandos">
+    <h2>ELEMENTOS</h2>
+    - Variáveis <br>
+    Armazenam valores e podem ser declaradas com var, let ou const. <br>
+    Tipos: var, let, const - podendo ser string(texto), numero, booleano (true or false), array e objeto <br>
+    Exemplo: let nome = "Laura"; <br>
+    <br>
 
-                <h2>CRIAÇÃO:</h2>
-            <p> O JavaScript foi criado em 1995 por Brendan Eich, um engenheiro da Netscape. A linguagem foi inicialmente chamada de Mocha, depois LiveScript, e finalmente JavaScript.  </p>
-            <h2>ELEMENTOS</h2>
-            - Variáveis <br>
-            Armazenam valores e podem ser declaradas com var, let ou const. <br>
-            Tipos: var, let, const - podendo ser string(texto), numero, booleano (true or false), array e objeto <br>
-            Exemplo: let nome = "Laura"; <br>
+    - Funções <br>
+    São blocos de código reutilizáveis, criados com a palavra-chave function, que permitem a execução
+    de instruções com parâmetros. <br>
+    Definição: function nomeDaFuncao(parâmetros) { ... } <br>
+    Exemplo: function saudacao(nome) { return "Olá, " + nome; } <br>
+    <br>
+    - Eventos <br>
+    Representam ações como cliques e carregamentos de página, capturados por meio de
+    addEventListener, possibilitando a interatividade. <br>
+    Método: addEventListener(evento, função) <br>
+    Exemplo: elemento.addEventListener("click", função); <br>
+    <br>
+    - Arrays <br>
+    Estruturas que armazenam múltiplos valores, acessíveis por índices. <br>
+    Declaração: let array = [valor1, valor2, ...] <br>
+    Exemplo: let frutas = ["maçã", "banana"];<br>
+    Declaração: let objeto = { propriedade1: valor1, propriedade2: valor2 } <br>
+    Exemplo: let carro = { marca: "Fusca", ano: 1970 }; <br>
+    <br>
+    - Objetos <br>
+    Os objetos são estruturas complexas que contêm propriedades e métodos, acessíveis por notação de ponto ou
+    colchetes. <br>
+    Declaração: let objeto = { propriedade1: valor1, propriedade2: valor2 }
+    Exemplo: let carro = { marca: "Fusca", ano: 1970 }; <br>
+    <br>
+    - Condicionais <br>
+    Permitem a tomada de decisões no código utilizando if, else e else if <br>
+    Estruturas: if e else, while e do, for, switch e case.
+    Exemplo: if (condição) { ... } else { ... }
+    <br>
+    - Loops <br>
+    Tipos: for, while, do-while <br>
+    Exemplo: for (let i = 0; i < 5; i++) { ... } <br>
+        <br>
+        - Operadores <br>
+        Realizam operações matemáticas e lógicas. <br>
+        Tipos: Aritméticos (+, -, *, /), Lógicos (&&, ||, !) e de Comparação (==, ===, !=, !==, <,>) <br>
+            1. =: Operador de atribuição
+            2. ==: Comparação
+            3. ===: Compara valor e tipo
+            Exemplo: let soma = a + b; <br>
             <br>
-
-            - Funções <br>
-            São blocos de código reutilizáveis, criados com a palavra-chave function, que permitem a execução
-            de instruções com parâmetros. <br>
-            Definição: function nomeDaFuncao(parâmetros) { ... } <br>
-            Exemplo: function saudacao(nome) { return "Olá, " + nome; } <br>
-<br>
-            - Eventos <br>
-            Representam ações como cliques e carregamentos de página, capturados por meio de
-            addEventListener, possibilitando a interatividade. <br>
-            Método: addEventListener(evento, função) <br>
-            Exemplo: elemento.addEventListener("click", função); <br>
+            - Strings <br>
+            São sequências de caracteres que podem ser manipuladas de várias maneiras. <br>
+            Métodos: replace(), substring(), toUpperCase(), toLowerCase() <br>
+            Exemplo: let textoModificado = texto.replace("mundo", "JavaScript"); <br>
             <br>
-            - Arrays <br>
-            Estruturas que armazenam múltiplos valores, acessíveis por índices. <br>
-            Declaração: let array = [valor1, valor2, ...] <br>
-            Exemplo: let frutas = ["maçã", "banana"];<br>
-            Declaração: let objeto = { propriedade1: valor1, propriedade2: valor2 } <br>
-            Exemplo: let carro = { marca: "Fusca", ano: 1970 }; <br>
+            - Escopos <br>
+            Definem a visibilidade das variáveis, com escopos global e local para evitar conflitos.
+            Tipos: Global e Local <br>
+            Exemplo: let globalVariable = "Eu sou global"; <br>
             <br>
-            - Objetos <br>
-            Os objetos são estruturas complexas que contêm propriedades e métodos, acessíveis por notação de ponto ou
-            colchetes. <br>
-            Declaração: let objeto = { propriedade1: valor1, propriedade2: valor2 }
-            Exemplo: let carro = { marca: "Fusca", ano: 1970 }; <br>
+            - DOM (Document Object Model) <br>
+            O DOM representa a estrutura de uma página HTML, permitindo a manipulação dinâmica dos elementos.
+            Métodos: getElementById(), querySelector(), innerText, appendChild() <br>
+            Exemplo: document.getElementById("titulo").innerText = "Novo Título"; <br>
             <br>
-            - Condicionais <br>
-            Permitem a tomada de decisões no código utilizando if, else e else if <br>
-            Estruturas: if e else, while e do, for, switch e case.
-            Exemplo: if (condição) { ... } else { ... }
-            <br>
-            - Loops <br>
-            Tipos: for, while, do-while <br>
-            Exemplo: for (let i = 0; i < 5; i++) { ... } <br>
-            <br>
-                - Operadores <br>
-                Realizam operações matemáticas e lógicas. <br>
-                Tipos: Aritméticos (+, -, *, /), Lógicos (&&, ||, !) e de Comparação (==, ===, !=, !==, <,>) <br>
-                1. =: Operador de atribuição
-                2. ==: Comparação
-                3. ===: Compara valor e tipo 
-                    Exemplo: let soma = a + b; <br>
-                    <br>
-                    - Strings <br>
-                    São sequências de caracteres que podem ser manipuladas de várias maneiras. <br>
-                    Métodos: replace(), substring(), toUpperCase(), toLowerCase() <br>
-                    Exemplo: let textoModificado = texto.replace("mundo", "JavaScript"); <br>
-                    <br>
-                    - Escopos <br>
-                    Definem a visibilidade das variáveis, com escopos global e local para evitar conflitos.
-                    Tipos: Global e Local <br>
-                    Exemplo: let globalVariable = "Eu sou global"; <br>
-                    <br>
-                    - DOM (Document Object Model) <br>
-                    O DOM representa a estrutura de uma página HTML, permitindo a manipulação dinâmica dos elementos.
-                    Métodos: getElementById(), querySelector(), innerText, appendChild() <br>
-                    Exemplo: document.getElementById("titulo").innerText = "Novo Título"; <br>
-                    <br>
-                    - Eventos de Tempo <br>
-                    Como setTimeout e setInterval, executam códigos após um intervalo ou repetidamente. <br>
-                    Métodos: setTimeout(), setInterval() <br>
-                    Exemplo: setTimeout(function() { ... }, 2000);
+            - Eventos de Tempo <br>
+            Como setTimeout e setInterval, executam códigos após um intervalo ou repetidamente. <br>
+            Métodos: setTimeout(), setInterval() <br>
+            Exemplo: setTimeout(function() { ... }, 2000);
+            </div>
+           
